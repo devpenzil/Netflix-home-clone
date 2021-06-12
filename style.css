@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*#E509148*/
+body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+body .hero {
+  min-height: 100vh;
+  background-image: url("./img/netflix-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+body .hero .cover {
+  background-color: rgba(0, 0, 0, 0.4);
+  min-height: 100vh;
+}/*# sourceMappingURL=style.css.map */
