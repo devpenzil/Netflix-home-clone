@@ -19,4 +19,29 @@ body .hero {
 body .hero .cover {
   background-color: rgba(0, 0, 0, 0.4);
   min-height: 100vh;
+}
+body .hero .cover .logo {
+  width: 150px;
+}
+body .hero .cover .sign-in {
+  background-color: #E50914;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+}
+body .hero .cover .lan {
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid white;
+}
+body .hero .cover .lan:hover {
+  color: white;
+}
+body .hero .cover .hero-content {
+  min-height: 90vh;
+  text-align: center;
+  color: white;
+  border: 3px solid white;
 }/*# sourceMappingURL=style.css.map */
