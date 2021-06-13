@@ -160,4 +160,61 @@ body{
             }
         }
     }
+    .faq{
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        border-bottom: 8px solid #bababa;
+
+        h3{
+            color: white;
+            margin-bottom: 5vh;
+            font-weight: 600;
+        }
+
+
+        .accordion-item{
+            background-color:#303030;
+            color:white;
+            font-size: 24px;
+            text-align:left;
+            margin-bottom: 5px;
+        }
+        .accordion-button{
+            background-color:#303030;
+            color:white;
+            font-size:24px;
+        }
+        .e-mail{
+                    
+                   
+            .mail{
+                padding: 15px 20px;
+                margin:0px 0px;
+                border: none;
+                width:50%;
+            }
+            .mail:active{
+               
+                border: none;
+               
+            }
+            .button{
+                padding: 15px 20px;
+                margin: 0px 0px;
+                background-color: #E50914;
+                color:white;
+                border:none;
+                margin-left: -10px;
+            }
+        }
+        .sec{
+            margin-top: 10vh;
+            margin-bottom: 10vh;
+
+            p{
+                color:white;
+                font-size: 24px;
+            }
+        }
+    }
 }

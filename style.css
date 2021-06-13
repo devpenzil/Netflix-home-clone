@@ -136,4 +136,51 @@ body .section-four .row h3 {
 body .section-four .row p {
   font-weight: 500;
   font-size: 20px;
+}
+body .faq {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  border-bottom: 8px solid #bababa;
+}
+body .faq h3 {
+  color: white;
+  margin-bottom: 5vh;
+  font-weight: 600;
+}
+body .faq .accordion-item {
+  background-color: #303030;
+  color: white;
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+body .faq .accordion-button {
+  background-color: #303030;
+  color: white;
+  font-size: 24px;
+}
+body .faq .e-mail .mail {
+  padding: 15px 20px;
+  margin: 0px 0px;
+  border: none;
+  width: 50%;
+}
+body .faq .e-mail .mail:active {
+  border: none;
+}
+body .faq .e-mail .button {
+  padding: 15px 20px;
+  margin: 0px 0px;
+  background-color: #E50914;
+  color: white;
+  border: none;
+  margin-left: -10px;
+}
+body .faq .sec {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+body .faq .sec p {
+  color: white;
+  font-size: 24px;
 }/*# sourceMappingURL=style.css.map */
