@@ -217,4 +217,17 @@ body{
             }
         }
     }
+    .footer{
+        color:#929292;
+        margin-top: 10vh;
+        padding-bottom: 5vh;
+
+        ul{
+            li{
+                list-style: none;
+                cursor:pointer;
+                line-height: 3;
+            }
+        }
+    }
 }

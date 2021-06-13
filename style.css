@@ -183,4 +183,14 @@ body .faq .sec {
 body .faq .sec p {
   color: white;
   font-size: 24px;
+}
+body .footer {
+  color: #929292;
+  margin-top: 10vh;
+  padding-bottom: 5vh;
+}
+body .footer ul li {
+  list-style: none;
+  cursor: pointer;
+  line-height: 3;
 }/*# sourceMappingURL=style.css.map */
