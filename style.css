@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +9,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 body .hero {
   min-height: 100vh;
@@ -15,9 +17,10 @@ body .hero {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border-bottom: 8px solid #bababa;
 }
 body .hero .cover {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   min-height: 100vh;
 }
 body .hero .cover .logo {
@@ -26,15 +29,18 @@ body .hero .cover .logo {
 body .hero .cover .sign-in {
   background-color: #E50914;
   color: white;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   border-radius: 10px;
+  border: none;
 }
 body .hero .cover .lan {
   color: white;
   margin-left: 20px;
   margin-right: 20px;
-  border: 1px solid white;
+  border: 1px solid #9b8282;
 }
 body .hero .cover .lan:hover {
   color: white;
@@ -43,5 +49,91 @@ body .hero .cover .hero-content {
   min-height: 90vh;
   text-align: center;
   color: white;
-  border: 3px solid white;
+}
+body .hero .cover .hero-content .heading {
+  font-weight: 600;
+}
+body .hero .cover .hero-content .heading p {
+  font-size: 20px;
+}
+body .hero .cover .hero-content .e-mail .mail {
+  padding: 15px 20px;
+  margin: 0px 0px;
+  border: none;
+  width: 50%;
+}
+body .hero .cover .hero-content .e-mail .mail:active {
+  border: none;
+}
+body .hero .cover .hero-content .e-mail .button {
+  padding: 15px 20px;
+  margin: 0px 0px;
+  background-color: #E50914;
+  color: white;
+  border: none;
+  margin-left: -10px;
+}
+body .section-one {
+  min-height: 60vh;
+  color: white;
+  border-bottom: 8px solid #bababa;
+}
+body .section-one .row {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+body .section-one .row h3 {
+  font-weight: 600;
+}
+body .section-one .row p {
+  font-weight: 500;
+  font-size: 20px;
+}
+body .section-two {
+  min-height: 60vh;
+  color: white;
+  border-bottom: 8px solid #bababa;
+}
+body .section-two .row {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+body .section-two .row h3 {
+  font-weight: 600;
+}
+body .section-two .row p {
+  font-weight: 500;
+  font-size: 20px;
+}
+body .section-three {
+  min-height: 60vh;
+  color: white;
+  border-bottom: 8px solid #bababa;
+}
+body .section-three .row {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+body .section-three .row h3 {
+  font-weight: 600;
+}
+body .section-three .row p {
+  font-weight: 500;
+  font-size: 20px;
+}
+body .section-four {
+  min-height: 60vh;
+  color: white;
+  border-bottom: 8px solid #bababa;
+}
+body .section-four .row {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+body .section-four .row h3 {
+  font-weight: 600;
+}
+body .section-four .row p {
+  font-weight: 500;
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */

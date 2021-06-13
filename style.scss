@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&display=swap');
+
 *{
     margin:0;
     padding:0;
@@ -7,6 +9,9 @@ body{
     width:100%;
     height:100%;
     background-color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
 
     .hero{
         min-height: 100vh;
@@ -14,9 +19,10 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        border-bottom: 8px solid #bababa;
 
         .cover{
-            background-color: rgba(0,0,0,0.4);
+            background-color: rgba(0,0,0,0.6);
             min-height:100vh;
 
             .logo{
@@ -25,15 +31,18 @@ body{
             .sign-in{
                 background-color: #E50914;
                 color:white;
-                padding-left:15px;
-                padding-right: 15px;
+                padding-left:20px;
+                padding-right: 20px;
+                padding-top:5px;
+                padding-bottom:5px;
                 border-radius: 10px;
+                border:none;
             }
             .lan{
                 color:white;
                 margin-left:20px;
                 margin-right:20px;
-                border: 1px solid white;
+                border: 1px solid rgb(155, 130, 130);
             }
             .lan:hover{
                 color:white;
@@ -43,10 +52,112 @@ body{
                 min-height:90vh;
                 text-align:center;
                 color:white;  
-                border:3px solid white;            
+                
+                .heading{
+                    font-weight: 600;
+
+                    p{
+                        font-size: 20px;
+                    }
+                }
+                .e-mail{
+                    
+                   
+                    .mail{
+                        padding: 15px 20px;
+                        margin:0px 0px;
+                        border: none;
+                        width:50%;
+                    }
+                    .mail:active{
+                       
+                        border: none;
+                       
+                    }
+                    .button{
+                        padding: 15px 20px;
+                        margin: 0px 0px;
+                        background-color: #E50914;
+                        color:white;
+                        border:none;
+                        margin-left: -10px;
+                    }
+                }
                 
             }
 
+        }
+    }
+    .section-one{
+        min-height:60vh;
+        color:white;
+        border-bottom: 8px solid #bababa;
+
+        .row{
+            margin-top: 10vh;
+            margin-bottom:10vh;
+
+            h3{
+                font-weight: 600;
+            }
+            p{
+                font-weight: 500;
+                font-size: 20px;
+            }
+        }
+    }
+    .section-two{
+        min-height:60vh;
+        color:white;
+        border-bottom: 8px solid #bababa;
+
+        .row{
+            margin-top: 10vh;
+            margin-bottom:10vh;
+
+            h3{
+                font-weight: 600;
+            }
+            p{
+                font-weight: 500;
+                font-size: 20px;
+            }
+        }
+    }
+    .section-three{
+        min-height:60vh;
+        color:white;
+        border-bottom: 8px solid #bababa;
+
+        .row{
+            margin-top: 10vh;
+            margin-bottom:10vh;
+
+            h3{
+                font-weight: 600;
+            }
+            p{
+                font-weight: 500;
+                font-size: 20px;
+            }
+        }
+    }
+    .section-four{
+        min-height:60vh;
+        color:white;
+        border-bottom: 8px solid #bababa;
+
+        .row{
+            margin-top: 10vh;
+            margin-bottom:10vh;
+
+            h3{
+                font-weight: 600;
+            }
+            p{
+                font-weight: 500;
+                font-size: 20px;
+            }
         }
     }
 }
